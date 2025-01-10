@@ -1,0 +1,80 @@
+
+body {    /* does not have a period cause its not a class/ its already a thing */
+    margin: 0;  /*marginis how much space between, has funky affexcts on body sometimes you can use it to center. but thats for real gangsters only  */
+    font-family: Arial, sans-serif; /*arial is the first choice if your shit dosent have it downloaded then it uses sans seriff which everyone has  */
+    background-color: #f3f4f6; 
+}
+
+
+.menu {    /* this is the menu at the top it has a period then the name because i am making a div class in this line (use it by saying <div class="menu">) */
+    display: flex; /*google this  */
+    justify-content: space-between; /*figure putting shit where you want it is really hard with css so you gotta do alot of shit for it  */
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /*makes it look a little cooler  */
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.menu-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+
+
+
+.contact-btn {
+    background-color: #00bcd4;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/*containers get used alot to put other stuff in for example on the website the text box is in a beige container . this is used so you can move and change the size of something while being
+able to replace or change the componenet without it being too specific to that one thing.  */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Image takes 1 part, text takes 2 parts */
+    gap: 20px; /* Adds spacing between columns */
+    align-items: center; /* Vertically aligns content */
+    padding: 20px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%; /*you can use alot of types here i used % you can also use px and vh(viewheight), vw etc  */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+
+.text-entry {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: #ff0000;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}

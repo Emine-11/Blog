@@ -1,0 +1,1 @@
+put your js in here if ya nasty link it in your html like  <script src="path to js file">
